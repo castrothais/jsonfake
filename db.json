@@ -1,0 +1,44 @@
+{
+  "administrador":[
+    {"id":1,"nome":"Ana Souza","cpf":"789.456.123-00","celular":"(31) 98899-2233","cep":"30140-000","logradouro":"Av. Afonso Pena","numero":"900","complemento":"10º andar","bairro":"Funcionários","cidade":"Belo Horizonte","estado":"Minas Gerais","email":"ana.souza@admgeral.com"}
+  ],
+  "participanteCPF":[
+    {"id":1,"nome":"Mariana Alves","cpf":"123.456.789-00","dataNascimento":"1995-06-12","celular":"(32) 98877-1122","email":"mariana.alves@email.com","cep":"36025-000","logradouro":"Rua dos Cafezais","numero":"1800","complemento":"Ap 301","bairro":"Cafezinho","cidade":"Juiz de Fora","estado":"Minas Gerais","organizador":false},
+    {"id":2,"nome":"Pedro Lima","cpf":"321.654.987-10","dataNascimento":"1999-03-22","celular":"(32) 99711-4455","email":"pedro.lima@email.com","cep":"36010-001","logradouro":"Av. Brasil","numero":"950","complemento":"","bairro":"Centro","cidade":"Juiz de Fora","estado":"Minas Gerais","organizador":true},
+    {"id":3,"nome":"Laura Mendes","cpf":"147.258.369-00","dataNascimento":"1988-11-02","celular":"(21) 99222-3344","email":"laura.mendes@email.com","cep":"22030-000","logradouro":"Rua das Palmeiras","numero":"410","complemento":"Casa","bairro":"Botafogo","cidade":"Rio de Janeiro","estado":"Rio de Janeiro","organizador":false},
+    {"id":4,"nome":"Ricardo Tavares","cpf":"963.852.741-00","dataNascimento":"1985-07-15","celular":"(11) 91122-3344","email":"ricardo.tavares@email.com","cep":"04001-000","logradouro":"Rua Vergueiro","numero":"123","complemento":"Bloco A","bairro":"Paraíso","cidade":"São Paulo","estado":"São Paulo","organizador":false},
+    {"id":5,"nome":"Fernanda Gomes","cpf":"852.963.741-22","dataNascimento":"1992-09-30","celular":"(47) 98877-4455","email":"fernanda.gomes@email.com","cep":"89010-200","logradouro":"Rua das Acácias","numero":"58","complemento":"","bairro":"Velha","cidade":"Blumenau","estado":"Santa Catarina","organizador":false}
+  ],
+  "participanteCNPJ":[
+    {"id":1,"razaoSocial":"Cafeteria do Ponto LTDA","nomeFantasia":"Ponto Café","cnpj":"12.345.678/0001-99","celular":"(32) 99988-7766","email":"contato@pontocafe.com.br","siteEmpresa":"www.pontocafe.com.br","nomeResponsavelLegal":"Mariana Alves","cpfResponsavelLegal":"123.456.789-00","inscricaoEstadualMunicipal":"123456789","cep":"36025-000","logradouro":"Rua dos Cafezais","numero":"1800","complemento":"Loja 2","bairro":"Cafezinho","cidade":"Juiz de Fora","estado":"Minas Gerais","organizador":true},
+    {"id":2,"razaoSocial":"TechMind Eventos LTDA","nomeFantasia":"TechMind","cnpj":"98.765.432/0001-55","celular":"(11) 98888-9999","email":"contato@techmind.com","siteEmpresa":"www.techmind.com","nomeResponsavelLegal":"Carlos Menezes","cpfResponsavelLegal":"654.321.987-00","inscricaoEstadualMunicipal":"987654321","cep":"01000-000","logradouro":"Av. Paulista","numero":"1500","complemento":"Conjunto 12","bairro":"Bela Vista","cidade":"São Paulo","estado":"São Paulo","organizador":true}
+  ],
+  "evento":[
+    {"id":1,"nomeEvento":"Pé de Café","modalidade":"Presencial","tipoEvento":"Gastronomia","descricao":"Concurso de cafeterias locais em Juiz de Fora.","valorIngresso":50,"idadeMinima":18,"lotacaoMaxima":30,"dataInicio":"2025-10-20","horaInicio":"09:00","dataFim":"2025-10-30","horaFim":"18:00","cep":"36025-000","logradouro":"Rua dos Cafezais","numero":"1800","complemento":"Loja 2","bairro":"Cafezinho","cidade":"Juiz de Fora","estado":"Minas Gerais","idOrganizador":1,"idTipoEvento":1,"idPorteEvento":1},
+    {"id":2,"nomeEvento":"Tech Conference 2025","modalidade":"Híbrido","tipoEvento":"Tecnologia","descricao":"Conferência sobre inovação e transformação digital.","valorIngresso":120,"idadeMinima":16,"lotacaoMaxima":500,"dataInicio":"2025-11-15","horaInicio":"10:00","dataFim":"2025-11-17","horaFim":"20:00","cep":"01000-000","logradouro":"Av. Paulista","numero":"1500","complemento":"Centro de Convenções","bairro":"Bela Vista","cidade":"São Paulo","estado":"São Paulo","idOrganizador":2,"idTipoEvento":2,"idPorteEvento":2},
+    {"id":3,"nomeEvento":"Festival de Inverno 2025","modalidade":"Presencial","tipoEvento":"Arte e Cultura","descricao":"Festival com apresentações musicais e exposições culturais.","valorIngresso":80,"idadeMinima":12,"lotacaoMaxima":1000,"dataInicio":"2025-07-01","horaInicio":"12:00","dataFim":"2025-07-10","horaFim":"23:00","cep":"35500-000","logradouro":"Praça da Liberdade","numero":"100","complemento":"","bairro":"Centro","cidade":"Ouro Preto","estado":"Minas Gerais","idOrganizador":2,"idTipoEvento":3,"idPorteEvento":2},
+    {"id":4,"nomeEvento":"Feira Tech Kids","modalidade":"Presencial","tipoEvento":"Educação","descricao":"Feira tecnológica para crianças e adolescentes.","valorIngresso":20,"idadeMinima":6,"lotacaoMaxima":200,"dataInicio":"2025-12-10","horaInicio":"08:00","dataFim":"2025-12-12","horaFim":"17:00","cep":"80010-000","logradouro":"Rua das Flores","numero":"300","complemento":"","bairro":"Centro","cidade":"Curitiba","estado":"Paraná","idOrganizador":1,"idTipoEvento":4,"idPorteEvento":1},
+    {"id":5,"nomeEvento":"Summit Mulheres na Liderança","modalidade":"Online","tipoEvento":"Negócios","descricao":"Evento de liderança feminina com palestras e networking.","valorIngresso":0,"idadeMinima":18,"lotacaoMaxima":10000,"dataInicio":"2025-08-05","horaInicio":"09:00","dataFim":"2025-08-06","horaFim":"18:00","cep":"00000-000","logradouro":"Online","numero":"","complemento":"","bairro":"","cidade":"Virtual","estado":"Brasil","idOrganizador":2,"idTipoEvento":5,"idPorteEvento":2}
+  ],
+  "tipoEvento":[
+    {"id":1,"nomeTipoEvento":"Gastronomia","descricao":"Eventos voltados à culinária, cafés e bebidas."},
+    {"id":2,"nomeTipoEvento":"Tecnologia","descricao":"Workshops, palestras e conferências sobre tecnologia."},
+    {"id":3,"nomeTipoEvento":"Arte e Cultura","descricao":"Exposições, apresentações e feiras culturais."},
+    {"id":4,"nomeTipoEvento":"Educação","descricao":"Feiras, palestras e oficinas educativas."},
+    {"id":5,"nomeTipoEvento":"Negócios","descricao":"Eventos corporativos e de empreendedorismo."}
+  ],
+  "porteEvento":[
+    {"id":1,"nomePorteEvento":"Pequeno","numeroMinimoParticipantes":10,"numeroMaximoParticipantes":50,"tempoMinimoCancelamento":"3 dias","descricao":"Eventos locais e de pequeno porte.","idAdministrador":1},
+    {"id":2,"nomePorteEvento":"Grande","numeroMinimoParticipantes":100,"numeroMaximoParticipantes":1000,"tempoMinimoCancelamento":"7 dias","descricao":"Eventos corporativos e de grande público.","idAdministrador":1}
+  ],
+  "atividade":[
+    {"id":1,"idEvento":1,"nomeAtividade":"Workshop de Torra de Café","tipoEvento":"Gastronomia","dataInicio":"2025-10-22","horaInicio":"14:00","cargaHoraria":"02:00","local":"Sala 2 - Ponto Café","cep":"36025-000","logradouro":"Rua dos Cafezais, 1800"},
+    {"id":2,"idEvento":2,"nomeAtividade":"Palestra de IA Aplicada","tipoEvento":"Tecnologia","dataInicio":"2025-11-16","horaInicio":"15:00","cargaHoraria":"01:30","local":"Auditório Principal","cep":"01000-000","logradouro":"Av. Paulista, 1500"},
+    {"id":3,"idEvento":3,"nomeAtividade":"Show de Jazz ao Vivo","tipoEvento":"Arte e Cultura","dataInicio":"2025-07-05","horaInicio":"20:00","cargaHoraria":"02:30","local":"Praça da Liberdade","cep":"35500-000","logradouro":"Praça da Liberdade, 100"},
+    {"id":4,"idEvento":4,"nomeAtividade":"Oficina de Robótica","tipoEvento":"Educação","dataInicio":"2025-12-11","horaInicio":"09:00","cargaHoraria":"03:00","local":"Auditório Tech Kids","cep":"80010-000","logradouro":"Rua das Flores, 300"}
+  ],
+  "presenca":[
+    {"id":1,"idParticipante":1,"idEvento":1,"presenca":true},{"id":2,"idParticipante":2,"idEvento":1,"presenca":false},{"id":3,"idParticipante":1,"idEvento":2,"presenca":true},
+    {"id":4,"idParticipante":3,"idEvento":3,"presenca":true},{"id":5,"idParticipante":4,"idEvento":4,"presenca":false},{"id":6,"idParticipante":5,"idEvento":5,"presenca":true}
+  ]
+}
